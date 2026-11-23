@@ -18,6 +18,7 @@
 
 body{
     background-color:#142d32;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .pic{
@@ -33,11 +34,29 @@ body{
     height: 220px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid cadetblue
+    border: 3px solid cadetblue;
 }
 
 .aboutme{
     text-align: center;
     color: white;
-    font-size: large;
+    font-size: 17px;
+    padding: 50px 10%;
+    line-height: 1.8;
+}
+
+.aboutme a{
+    display: inline-block;
+    color: #70cfca;
+    text-decoration: none;
+    margin: 8px;
+    padding: 10px 15px;
+    border: 1px solid #70cfca55;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.aboutme a:hover{
+    background-color: #70cfca;
+    color: #142d32;
 }
